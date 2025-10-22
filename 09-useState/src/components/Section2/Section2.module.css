@@ -1,0 +1,41 @@
+.Section2{
+    height: 100vh;
+    width: 100%;
+    background-color: #123;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv{
+    height: 75vh;
+    width: 80vw;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+  min-width: 400px;
+  max-width: 90%;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow-x: auto; 
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+input{
+    padding: 1rem;
+    width: 60%;
+}
+
+.myLetter{
+    color: red;
+    font-size: 45px;
+}

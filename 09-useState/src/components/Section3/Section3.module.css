@@ -1,0 +1,24 @@
+.Section3{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title{
+    width: fit-content;
+    background-color: #fff;
+    color: black;
+}
+
+.change{
+    padding: 0.7rem 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
